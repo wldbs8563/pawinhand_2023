@@ -90,7 +90,6 @@ main #pawin_slide .swiper-button-next {
 main #pawin_slide .swiper-button-prev::after,
 main #pawin_slide .swiper-button-next::after {display:none;}
 
-/* 
 main #pawin_slide2 {
     width:1160px; height:300px;
 }
@@ -102,4 +101,26 @@ main #pawin_slide2 .swiper-wrapper .slide6 {
 }
 main #pawin_slide2 .swiper-wrapper .slide7 {
     background:url(https://picsum.photos/id/16/1160);
-} */
+}
+/* pawin-slide3 */
+main #pawin_slide3 {
+    max-width:1160px; margin:0 auto;
+    /* slide대상으로 img태그를 삽입한 경우 높이값은 이미지 태그크기만큼
+    자동으로 설정되으로 별도의 높이값은 작성할 필요가 없다 */
+}
+main #pawin_slide3 .swiper-wrapper .swiper-slide img {
+    width:100%;
+}
+/* 입양정보 slide */
+main .dog_info {
+    padding:100px 0 50px;
+    font-size:2rem; text-align:center;
+}
+main #dog_info_slide {
+    background:aqua;
+    max-width:1160px; margin:0 auto;
+    width:calc(100% - 30px);
+}
+main #dog_info_slide .swiper-wrapper .swiper-slide img {
+    width:100%;
+}
